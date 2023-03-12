@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+#logo{
+    width: 60px;
+    height: 50px;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 10px;
+    
+}
+header{
+    background-color: #D77B00;
+    color: rgb(202, 194, 194);
+    padding-bottom: 10px;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: rgb(202, 194, 194);
+    padding: 10px;
+}
+a:hover{
+    background-color: aliceblue;
+}
+section.normal{
+    font-family: 'Noto Serif Lao', serif;
+    color:black;
+    margin: 100px;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    
+}
+section.img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    box-shadow: inset 0px 0px 20px 6px rgb(0 0 0 / 81%);
+}
+section:nth-last-of-type(6){
+    background-image: url(img/img4.jpg);
+    width: 100%;
+    height: 80vh;
+}
+section:nth-last-of-type(4){
+    background-image: url(img/img3.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: left bottom;
+}
+section:nth-last-of-type(2){
+    background-image: url(img/img1.jpg);
+    width: 100%;
+    height: 90vh;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
